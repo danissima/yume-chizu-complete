@@ -1,0 +1,51 @@
+
+.content__item {
+	padding: 30px 0;
+	border-bottom: 1px solid black;
+}
+
+.content__item:last-child {
+	border: none;
+}
+
+.item__radical-block {
+	margin-bottom: 30px;
+}
+
+.item__kanji-list {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kanji-list__item {
+	background: none;
+	width: 100px;
+	height: 100px;
+	outline: none;
+	border: 1px solid black;
+	cursor: pointer;
+	margin: 0 15px 15px 0;
+	font: 60px 'Meiryo';
+	transition: border-radius .2s linear;
+}
+
+.kanji-list__item:hover {
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

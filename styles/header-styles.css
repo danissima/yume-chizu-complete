@@ -1,0 +1,81 @@
+.header {
+	width: 100%;
+	padding: 20px 0;
+}
+
+.header__inner {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+	.header__inner {
+		flex-direction: column;
+	}
+}
+
+.header__logo {
+	width: 130px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo__image {
+	width: 60px;
+}
+
+.logo__title {
+	font-family: 'MV Boli';
+	font-size: 22px;
+	line-height: 26px;
+	color: black;
+}
+
+.header__nav {
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 460px) {
+	.header__nav {
+		width: 100%;
+		justify-content: space-around;
+	}
+}
+
+.nav__item-block {
+	margin-right: 15px;
+}
+
+.nav__item {
+	color: black;
+	font-size: 20px;
+}
+
+.nav__item::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 1px;
+	margin-top: 2px;
+	background-color: white;
+	transition: all .5s ease-in-out;
+}
+.nav__item:hover::after {
+	width: 100%;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
